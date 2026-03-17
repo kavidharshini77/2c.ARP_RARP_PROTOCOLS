@@ -18,6 +18,7 @@ stored.
 P
 ## PROGRAM - ARP
 ## server-side.py
+```
 import socket
 
 def start_server():
@@ -52,7 +53,9 @@ def start_server():
 
 if __name__ == "__main__":
     start_server()
+```
 ## client-side.py
+```
 import socket
 
 def start_client():
@@ -77,11 +80,13 @@ def start_client():
 
 if __name__ == "__main__":
     start_client()
+```
 ## OUPUT - ARP
 <img width="869" height="606" alt="image" src="https://github.com/user-attachments/assets/c5fd52fb-cdd3-482e-a155-93c0a5501810" />
 
 ## PROGRAM - RARP
 ## server-side.py
+```
 import socket
 
 def start_server():
@@ -117,7 +122,9 @@ def start_server():
 
 if __name__ == "__main__":
     start_server()
+```
 ## client-side.py
+```
 import socket
 
 def start_client():
@@ -142,6 +149,7 @@ def start_client():
 
 if __name__ == "__main__":
     start_client()
+```
 ## OUPUT -RARP
 
 <img width="1050" height="103" alt="Screenshot 2026-02-17 131420" src="https://github.com/user-attachments/assets/23dad46e-0f1f-477f-b42e-80ec08a19ef0" />
